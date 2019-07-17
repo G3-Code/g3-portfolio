@@ -4,33 +4,46 @@ import "../style/style.css";
 import "../style/nav.css";
 import { NavLink } from "react-router-dom";
 
-function Nav() {
-  return (
-    <div class="navbar-container">
-      <div class="navbar-subcontainer">
-        <div class="left">
-          <img class="logo" src={ImgLogo} alt="logo" />
+class Nav extends React.Component {
+  handleClick = e => {
+    console.log("clicked hamburger");
+    const burger = document.querySelector(".burger");
+    const nav = document.querySelector(".right");
+    nav.classList.toggle("nav-active");
+  };
+  render() {
+    return (
+      <nav>
+        <div className="navbar-subcontainer">
+          <div className="left">
+            <img className="logo" src={ImgLogo} alt="logo" />
+          </div>
+          <div className="right">
+            <NavLink to="/home" className="nav-items">
+              Home
+            </NavLink>
+            <NavLink to="/about" className="nav-items">
+              About
+            </NavLink>
+            <NavLink to="/portfolio" className="nav-items">
+              Portfolio
+            </NavLink>
+            <NavLink to="/blog" className="nav-items">
+              Blog
+            </NavLink>
+            <NavLink to="/contact" className="nav-items">
+              Contact
+            </NavLink>
+          </div>
+          <div className="burger" onClick={this.handleClick}>
+            <div className="line1" />
+            <div className="line1" />
+            <div className="line1" />
+          </div>
         </div>
-        <div class="right">
-          <NavLink to="/home" class="nav-items">
-            Home
-          </NavLink>
-          <NavLink to="/about" class="nav-items">
-            About
-          </NavLink>
-          <NavLink to="/portfolio" class="nav-items">
-            Portfolio
-          </NavLink>
-          <NavLink to="/blog" class="nav-items">
-            Blog
-          </NavLink>
-          <NavLink to="/contact" class="nav-items">
-            Contact
-          </NavLink>
-        </div>
-      </div>
-    </div>
-  );
+      </nav>
+    );
+  }
 }
 
 export default Nav;
