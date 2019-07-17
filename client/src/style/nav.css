@@ -35,13 +35,29 @@
   margin-right: 2rem;
 }
 
+.right a {
+  text-decoration: none;
+  color: #77628c;
+  margin-right: 8px;
+  font-size: 1.5rem;
+}
+
+.right a:last-of-type {
+  margin-right: 0;
+}
+
+.right a.active {
+  border-bottom: 3px solid #acc6aa;
+  font-size: 1.5rem;
+}
+
 .nav-items {
   width: 12rem;
   height: 2rem;
   text-align: center;
   border: 0px solid black;
   font-size: 1.5rem;
-
+  cursor: pointer;
   color: #77628c;
 }
 

@@ -2,6 +2,7 @@ import React from "react";
 import ImgLogo from "../assets/navlogo.png";
 import "../style/style.css";
 import "../style/nav.css";
+import { NavLink } from "react-router-dom";
 
 function Nav() {
   return (
@@ -11,11 +12,21 @@ function Nav() {
           <img class="logo" src={ImgLogo} alt="logo" />
         </div>
         <div class="right">
-          <div class="nav-items">Home</div>
-          <div class="nav-items">About</div>
-          <div class="nav-items">Portfolio</div>
-          <div class="nav-items">Blog</div>
-          <div class="nav-items">Contact</div>
+          <NavLink to="/home" class="nav-items">
+            Home
+          </NavLink>
+          <NavLink to="/about" class="nav-items">
+            About
+          </NavLink>
+          <NavLink to="/portfolio" class="nav-items">
+            Portfolio
+          </NavLink>
+          <NavLink to="/blog" class="nav-items">
+            Blog
+          </NavLink>
+          <NavLink to="/contact" class="nav-items">
+            Contact
+          </NavLink>
         </div>
       </div>
     </div>
