@@ -9,8 +9,22 @@ class Nav extends React.Component {
     console.log("clicked hamburger");
     const burger = document.querySelector(".burger");
     const nav = document.querySelector(".right");
+    const navLinks = document.querySelectorAll(".nav-items");
     nav.classList.toggle("nav-active");
+    // toggle nav to animate things
+
+    navLinks.forEach((link, index) => {
+      if (link.style.animation) {
+        link.style.animation = "";
+      } else {
+        link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 +
+          0.3}s`;
+      }
+    });
+
+    burger.classList.toggle("toggle");
   };
+
   render() {
     return (
       <nav>
@@ -37,8 +51,8 @@ class Nav extends React.Component {
           </div>
           <div className="burger" onClick={this.handleClick}>
             <div className="line1" />
-            <div className="line1" />
-            <div className="line1" />
+            <div className="line2" />
+            <div className="line3" />
           </div>
         </div>
       </nav>
