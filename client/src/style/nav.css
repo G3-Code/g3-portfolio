@@ -1,10 +1,51 @@
-.navbar-default {
+.navbar-container {
+  display: flex;
+  width: 100%;
+  height: 5rem;
   background-color: #eeeeee;
-  background-image: none;
-  background-repeat: no-repeat;
+  justify-content: center;
+  position: absolute;
+}
+
+.navbar-subcontainer {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left {
+  width: 30%;
+  height: 60%;
+  border: 0px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 5rem;
+}
+
+.right {
+  width: 40%;
+  height: 60%;
+  border: 0px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-right: 2rem;
+}
+
+.nav-items {
+  width: 12rem;
+  height: 2rem;
+  text-align: center;
+  border: 0px solid black;
+  font-size: 1.5rem;
+
+  color: #77628c;
 }
 
 .logo {
-  width: 30%;
+  width: 60%;
   height: auto;
 }
