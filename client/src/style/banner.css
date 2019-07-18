@@ -29,6 +29,8 @@
   color: #eeeeee;
   /* -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; */
+  display:flex;
+  justify-content:center;
 }
 .banner-btn {
   text-align: center;
@@ -59,6 +61,12 @@
   color: #eeeeee;
   letter-spacing: .6rem;
 
+}
+@media (max-width: 576px) {
+  .btext{
+    display: flex;
+    flex-direction:column;
+  }
 }
 #title {
   position: absolute;
