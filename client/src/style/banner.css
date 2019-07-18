@@ -2,6 +2,19 @@
   width: 100vw;
   height: 100vh;
   position: relative;
-  padding-top: 10vh;
-  background-color: #eeeeee;
+  background-color: black;
+}
+#title {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  color: #eeeeee;
+  text-align: center;
+  font-weight: 200;
+  font-size: 3rem;
+  letter-spacing: 0.25rem;
+  margin-top: -6rem;
+  padding-left: 1rem;
+  line-height: 5rem;
 }
