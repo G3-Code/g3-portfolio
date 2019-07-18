@@ -1,0 +1,10 @@
+.banner-area {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  padding-top: 10vh;
+}
+
+#banner {
+  background-color: #acc6aa;
+}
