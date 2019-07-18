@@ -8,13 +8,17 @@ function Banner() {
         <div id="stars" />
         <div id="stars2" />
         <div id="stars3" />
-        <div id="title">
-          <span>
-            Hello, I'm Gayathri Ramakrishnan.
-            <br />
-            <span>I am a full-stack web developer.</span>
-            <br />
-          </span>
+        <div className="banner-txt">
+          <div className="btext">
+            <span className="first-name">&nbsp;Gayathri&nbsp;</span>
+            <span className="last-name">&nbsp;Ramakrishnan&nbsp;</span>
+          </div>
+          <div className="btext">Full stack web developer</div>
+          <div className="banner-btn">
+            <a href="/portfolio">
+              <button>View my portfolio</button>
+            </a>
+          </div>
         </div>
       </div>
     </section>
