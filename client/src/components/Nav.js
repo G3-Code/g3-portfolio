@@ -1,6 +1,5 @@
 import React from "react";
 import ImgLogo from "../assets/navlogo.png";
-import "../style/style.css";
 import "../style/nav.css";
 import { NavLink } from "react-router-dom";
 
@@ -33,7 +32,7 @@ class Nav extends React.Component {
             <img className="logo" src={ImgLogo} alt="logo" />
           </div>
           <div className="right">
-            <NavLink to="/home" className="nav-items">
+            <NavLink to="/banner" className="nav-items">
               Home
             </NavLink>
             <NavLink to="/about" className="nav-items">
