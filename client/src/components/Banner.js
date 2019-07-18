@@ -13,6 +13,7 @@ function Banner() {
             Hello, I'm Gayathri Ramakrishnan.
             <br />
             <span>I am a full-stack web developer.</span>
+            <br />
           </span>
         </div>
       </div>
