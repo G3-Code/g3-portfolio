@@ -11,10 +11,10 @@ function Banner() {
         <div className="banner-txt">
           <div className="btext">
             <div>
-              <span className="first-name">Gayathri</span>
+              <span className="first-name">&nbsp;Gayathri&nbsp;</span>
             </div>
             <div>
-              <span className="last-name">Ramakrishnan</span>
+              <span className="last-name">&nbsp;Ramakrishnan&nbsp;</span>
             </div>
           </div>
           <div className="btext">Full stack web developer</div>
