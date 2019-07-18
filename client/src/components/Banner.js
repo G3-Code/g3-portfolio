@@ -10,10 +10,10 @@ function Banner() {
         <div id="stars3" />
         <div className="banner-txt">
           <div className="btext">
-            <span className="first-name">Gayathri </span>
-            <span className="last-name"> Ramakrishnan</span>
+            <span className="first-name">&nbsp;Gayathri&nbsp;</span>
+            <span className="last-name">&nbsp;Ramakrishnan&nbsp;</span>
           </div>
-          <div className="btext">I am a full stack web developer.</div>
+          <div className="btext">Full stack web developer</div>
           <div className="banner-btn">
             <a href="/portfolio">
               <button>View my portfolio</button>
