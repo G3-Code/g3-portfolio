@@ -7,6 +7,7 @@ nav {
   position: fixed;
   top: 0px;
   z-index: 1;
+  border-bottom: 3px solid #acc6aa;
 }
 
 .navbar-subcontainer {
@@ -44,9 +45,9 @@ nav {
 }
 
 .right a.active {
-  border-bottom: 3px solid #acc6aa;
+  border-bottom: 1px solid #71a0a5;
   font-size: 1.5rem;
-  color: #acc6aa;
+  color: #71a0a5;
 }
 
 .nav-items {
@@ -64,12 +65,12 @@ nav {
 .burger div {
   width: 2.5rem;
   height: 3px;
-  background-color: #77628c;
+  background-color: #71a0a5;
   margin: 4px;
 }
 
 .burger {
-  border: 1px solid #acc6aa;
+  border: 1px solid #eeeeee;
   border-radius: 5px;
   width: 4rem;
   padding: 0px;
