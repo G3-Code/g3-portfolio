@@ -4,4 +4,18 @@
   position: relative;
   padding-top: 10vh;
   background-color: #eeeeee;
+  border: 2px solid green;
+  overflow-x: hidden;
+}
+
+.tabs-container {
+  margin: 0 5%;
+  width: 90%;
+  height: 5%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  text-transform: uppercase;
 }
