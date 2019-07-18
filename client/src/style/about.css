@@ -1,3 +1,7 @@
-#about {
-  background-color: #71a0a5;
+.about-area {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  padding-top: 10vh;
+  background-color: #eeeeee;
 }

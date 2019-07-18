@@ -1,3 +1,7 @@
-#blog {
-  background-color: #acc6aa;
+.blog-area {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  padding-top: 10vh;
+  background-color: #eeeeee;
 }

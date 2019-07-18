@@ -32,7 +32,7 @@ class Nav extends React.Component {
             <img className="logo" src={ImgLogo} alt="logo" />
           </div>
           <div className="right">
-            <NavLink to="/home" className="nav-items">
+            <NavLink to="/banner" className="nav-items">
               Home
             </NavLink>
             <NavLink to="/about" className="nav-items">
