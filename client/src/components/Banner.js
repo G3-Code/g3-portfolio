@@ -9,7 +9,10 @@ function Banner() {
         <div id="stars2" />
         <div id="stars3" />
         <div className="banner-txt">
-          <div className="btext">Hello, I'm Gayathri Ramakrishnan.</div>
+          <div className="btext">
+            <span className="first-name">Gayathri </span>
+            <span className="last-name"> Ramakrishnan</span>
+          </div>
           <div className="btext">I am a full stack web developer.</div>
           <div className="banner-btn">
             <a href="/portfolio">
