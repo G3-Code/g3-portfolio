@@ -27,8 +27,47 @@
 }
 .tab {
   margin: 0.5% 2%;
+  padding: 0.75%;
   font-size: 1.5rem;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
   font-weight: bolder;
+  cursor: pointer;
+}
+.cards-container {
+  margin: 2% 5%;
+  width: 90%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+}
+
+.card {
+  width: 40rem;
+  height: 30rem;
+  margin: 0% 0%;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-weight: bolder;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+}
+
+.active-tab {
+  background-color: #71a0a5;
+  color: #eeeeee;
 }
