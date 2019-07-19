@@ -4,6 +4,7 @@ import Banner from "./Banner";
 import About from "./About";
 import Portfolio from "./Portfolio/Portfolio";
 import Contact from "./Contact";
+import Footer from "./Footer";
 import Blog from "./Blog";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import "../style/style.css";
@@ -18,6 +19,7 @@ function App() {
       <Route path="/blog" component={Blog} />
       <Route path="/contact" component={Contact} />
       <Nav />
+      <Footer />
     </Router>
   );
 }

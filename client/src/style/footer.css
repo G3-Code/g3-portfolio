@@ -1,0 +1,12 @@
+.footer-container {
+  border: 0px solid red;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: #eeeeee;
+  padding: 2rem;
+  position: absolute;
+  bottom: 0px;
+}
