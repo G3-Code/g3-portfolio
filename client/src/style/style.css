@@ -9,10 +9,8 @@ html {
   font-size: 62.5%;
   font-family: "PT Sans", sans-serif;
 }
-
-section {
+body {
   width: 100vw;
-  height: 100vh;
 }
 
 /*---Media Queries --*/
