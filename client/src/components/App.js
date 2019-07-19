@@ -2,7 +2,7 @@ import React from "react";
 import Nav from "./Nav";
 import Banner from "./Banner";
 import About from "./About";
-import Portfolio from "./Portfolio";
+import Portfolio from "./Portfolio/Portfolio";
 import Contact from "./Contact";
 import Blog from "./Blog";
 import { BrowserRouter as Router, Route } from "react-router-dom";
