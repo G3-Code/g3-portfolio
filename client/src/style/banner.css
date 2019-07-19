@@ -57,12 +57,14 @@ text-transform:uppercase;
   background:#eeeeee;
   color: #71a0a5;
   letter-spacing: .6rem;
+  padding-top:.5rem;
 }
 .last-name {
   border: 1px solid #71a0a5;
   background:#71a0a5;
   color: #eeeeee;
   letter-spacing: .6rem;
+  padding-top:.5rem;
 
 }
 @media (max-width: 576px) {
