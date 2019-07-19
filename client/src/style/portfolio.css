@@ -9,13 +9,26 @@
 }
 
 .tabs-container {
-  margin: 0 5%;
+  margin: 2% 5%;
   width: 90%;
-  height: 5%;
-  border: 1px solid black;
+  height: auto;
+  border-bottom: 3px solid #71a0a5;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 2rem;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.tab {
+  margin: 0.5% 2%;
+  font-size: 1.5rem;
   text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-weight: bolder;
 }

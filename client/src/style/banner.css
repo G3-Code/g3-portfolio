@@ -16,11 +16,12 @@
   color: #eeeeee;
   top: 40%;
   font-weight: 300;
-  font-size: 4rem;
+  font-size: 3rem;
   display: flex;
   flex-direction: column;
   letter-spacing: 0.2rem;
   line-height: 5rem;
+  text-transform:uppercase;
 }
 .btext {
   margin: 2rem 0px;
@@ -31,6 +32,8 @@
   -webkit-text-fill-color: transparent; */
   display:flex;
   justify-content:center;
+  letter-spacing: .7rem;
+
 }
 .banner-btn {
   text-align: center;
@@ -39,10 +42,10 @@
 .banner-btn button {
   width: 30rem;
   height: 5rem;
-
+text-transform:uppercase;
   background: #eeeeee;
   color: #71a0a5;
-  font-size: 2rem;
+  font-size: 1.5rem;
   letter-spacing: 0.4rem;
 }
 .banner-btn button:hover {
