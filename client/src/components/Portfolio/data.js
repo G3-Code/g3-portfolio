@@ -55,13 +55,6 @@ export const cardData = [
   },
   {
     headline:
-      "Typescript: Ten Things you Should Know Before Building Your Next Angular Application",
-    tab: "javascript",
-    img: "./assets/test.jpg",
-    author: "SIR RUFF'N'STUFF"
-  },
-  {
-    headline:
       "The Hottest New Bootstrap 4 Components Every Developer Needs to Know About",
     tab: "bootstrap",
     img: "./assets/test.jpg",
