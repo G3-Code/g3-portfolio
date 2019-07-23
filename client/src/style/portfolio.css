@@ -49,7 +49,7 @@
   flex-wrap: wrap;
   width: 100%;
   height: auto;
-  border: 1px solid dodgerblue;
+
   padding-bottom: 1%;
 }
 
@@ -64,21 +64,19 @@
   font-weight: bolder;
   display: flex;
   flex-direction: column;
-  border: 0px solid red;
 
   color: #eeeeee;
   transform-style: preserve-3d;
-  transition: all 1s ease-in-out;
+  transition: all 0.75s ease-in-out;
 }
 
-.card:hover {
+/* .card:hover {
   transform: rotateY(180deg);
-}
+} */
 
 .card-front {
   width: 100%;
   height: 100%;
-  border: 1px solid red;
   position: absolute;
   backface-visibility: hidden;
   background-color: black;
@@ -87,7 +85,6 @@
 .card-back {
   width: 100%;
   height: 100%;
-  border: 1px solid greenyellow;
   position: absolute;
   backface-visibility: hidden;
   transform: rotateY(180deg);
@@ -97,6 +94,50 @@
   background-color: black;
 }
 
+.card-back-top {
+  border-bottom: 2px solid #71a0a5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3% 5%;
+  padding-bottom: 2%;
+}
+
+.card-back-top .card-img-close {
+  background-color: black;
+  width: 10%;
+  height: 10%;
+  cursor: pointer;
+}
+
+.card-back-bottom {
+  margin-top: 3%;
+  margin-left: 5%;
+}
+.card-back-bottom .card-img-el {
+  width: 19.5%;
+  height: 19.5%;
+  margin-right: 3%;
+}
+
+.card-back-bottom .card-img-gh {
+  width: 20%;
+  height: 20%;
+  margin-right: 3%;
+}
+.card-back-center {
+  margin: 5% 5% 0% 5%;
+  padding: 1%;
+  line-height: 3rem;
+  color: #71a0a5;
+  text-transform: initial;
+  border-bottom: 2px solid #71a0a5;
+  height: 60%;
+}
+.card-back-title {
+  margin-left: 5%;
+  color: #71a0a5;
+}
 .card-separator {
   border: 1px solid #71a0a5;
   margin: 5% 5%;
@@ -113,6 +154,7 @@
 .card-title .card-img-more {
   width: 5%;
   height: 5%;
+  cursor: pointer;
 }
 
 .card-txt p {

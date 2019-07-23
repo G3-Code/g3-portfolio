@@ -9,55 +9,127 @@ export const tabData = [
 
 export const cardData = [
   {
-    headline:
+    id: "1",
+    projectName: "Project 1",
+    description:
       "ES8: The Next Step in the Evolution of Javascript and What it Means For Your Projects",
     tab: "javascript",
     img: "./assets/test.jpg",
-    author: "SIR RUFF'N'STUFF"
+    accomplishment: [
+      { id: "a1", desc: "Accomplishment1" },
+      { id: "a2", desc: "Accomplishment2" },
+      { id: "a3", desc: "Accomplishment3" },
+      { id: "a4", desc: "Accomplishment4" }
+    ],
+    github: "www.github.com",
+    online: "www.google.com"
   },
   {
-    headline:
+    id: "2",
+    projectName: "Project 2",
+    description:
       "Type Coercion: Why Does NaN !== NaN? and Other Strange Occurences",
     tab: "boostrap",
     img: "./assets/test.jpg",
-    author: "BONES R. LIFE"
+    accomplishment: [
+      { id: "a21", desc: "Accomplishment1" },
+      { id: "a22", desc: "Accomplishment2" },
+      { id: "a23", desc: "Accomplishment3" },
+      { id: "a24", desc: "Accomplishment4" }
+    ],
+    github: "www.github.com",
+    online: "www.google.com"
   },
   {
-    headline: "AI: What Are the Ethical Rammifications of the Future?",
+    id: "3",
+    projectName: "Project 3",
+    description: "AI: What Are the Ethical Rammifications of the Future?",
     tab: "technology",
     img: "./assets/test.jpg",
-    author: "MAX GOODBOYE"
+    accomplishment: [
+      { id: "a31", desc: "Accomplishment1" },
+      { id: "a32", desc: "Accomplishment2" },
+      { id: "a33", desc: "Accomplishment3" },
+      { id: "a34", desc: "Accomplishment4" }
+    ],
+    github: "www.github.com",
+    online: "www.google.com"
   },
   {
-    headline: "History of Javascript Libraries: from jQuery to React",
+    id: "4",
+    projectName: "Project 4",
+    description: "History of Javascript Libraries: from jQuery to React",
     tab: "React.js",
     img: "./assets/test.jpg",
-    author: "PUPPER S. DOGGO"
+    accomplishment: [
+      { id: "a41", desc: "Accomplishment1" },
+      { id: "a42", desc: "Accomplishment2" },
+      { id: "a43", desc: "Accomplishment3" },
+      { id: "a44", desc: "Accomplishment4" }
+    ],
+    github: "www.github.com",
+    online: "www.google.com"
   },
   {
-    headline: "Node.js in 2018: Which Framework? Express, Sails, Hapi?",
+    id: "5",
+    projectName: "Project 5",
+    description: "Node.js in 2018: Which Framework? Express, Sails, Hapi?",
     tab: "node",
     img: "./assets/test.jpg",
-    author: "SIR RUFF'N'STUFF"
+    accomplishment: [
+      { id: "a51", desc: "Accomplishment1" },
+      { id: "a52", desc: "Accomplishment2" },
+      { id: "a53", desc: "Accomplishment3" },
+      { id: "a54", desc: "Accomplishment4" }
+    ],
+    github: "www.github.com",
+    online: "www.google.com"
   },
   {
-    headline: "MongoDB: NoSQL vs. SQL, the Debate Continues...",
+    id: "6",
+    projectName: "Project 6",
+    description: "MongoDB: NoSQL vs. SQL, the Debate Continues...",
     tab: "node",
     img: "./assets/test.jpg",
-    author: "BONES R. LIFE"
+    accomplishment: [
+      { id: "a61", desc: "Accomplishment1" },
+      { id: "a62", desc: "Accomplishment2" },
+      { id: "a63", desc: "Accomplishment3" },
+      { id: "a64", desc: "Accomplishment4" }
+    ],
+    github: "www.github.com",
+    online: "www.google.com"
   },
   {
-    headline:
+    id: "7",
+    projectName: "Project 7",
+    description:
       "When to Rest, When to Spread: Why There Are Two Meanings Behind '...'",
     tab: "javascript",
     img: "./assets/test.jpg",
-    author: "PUPPER S. DOGGO"
+    accomplishment: [
+      { id: "a71", desc: "Accomplishment1" },
+      { id: "a72", desc: "Accomplishment2" },
+      { id: "a73", desc: "Accomplishment3" },
+      { id: "a74", desc: "Accomplishment4" }
+    ],
+    github: "www.github.com",
+    online: "www.google.com"
   },
   {
-    headline:
+    id: "8",
+    projectName: "Project 8",
+    description:
       "The Hottest New Bootstrap 4 Components Every Developer Needs to Know About",
     tab: "bootstrap",
     img: "./assets/test.jpg",
-    author: "MAX GOODBOYE"
+    accomplishment: [
+      { id: "a81", desc: "Accomplishment1" },
+      { id: "a82", desc: "Accomplishment2" },
+      { id: "a83", desc: "Accomplishment3" },
+      { id: "a84", desc: "Accomplishment4" }
+    ],
+    github: "www.github.com",
+    online: "www.google.com"
   }
 ];
