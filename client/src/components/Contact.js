@@ -4,7 +4,7 @@ import "../style/contact.css";
 function Contact() {
   return (
     <section className="contact-area">
-      <form>
+      <form action="POST" data-netlify="true">
         <div className="contact-container">
           <div className="contact-label">Full Name: </div>
           <div>
@@ -30,8 +30,13 @@ function Contact() {
               className="contact-input-msg"
             />
           </div>
+          <div data-netlify-recaptcha="true" />
           <div>
-            <button>Send Message</button>
+            <input
+              type="submit"
+              className="contact-button"
+              value="Send Message"
+            />
           </div>
         </div>
       </form>
