@@ -45,6 +45,11 @@ class Card extends React.Component {
               onClick={this.handleClose}
             />
           </div>
+          <div className="card-back-center">
+            {this.props.card.accomplishment.map((item, map) => (
+              <li key="index">{item}</li>
+            ))}
+          </div>
         </div>
       </div>
     );
