@@ -69,3 +69,9 @@
 .contact-button:focus {
   outline: none;
 }
+
+.recaptcha {
+  background-color: #eeeeee;
+  width: 40%;
+  height: 4rem;
+}
