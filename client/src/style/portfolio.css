@@ -97,6 +97,19 @@
   background-color: black;
 }
 
+.card-back-top {
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-back-top .card-img-close {
+  background-color: black;
+  width: 12%;
+  height: 12%;
+  cursor: pointer;
+}
 .card-separator {
   border: 1px solid #71a0a5;
   margin: 5% 5%;

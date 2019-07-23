@@ -1,5 +1,6 @@
 import React from "react";
 import ImgMenu from "../../assets/menu-more48.png";
+import ImgClose from "../../assets/close48.png";
 
 class Card extends React.Component {
   handleClick = e => {
@@ -7,6 +8,13 @@ class Card extends React.Component {
     let card = document.querySelector(".card");
     console.log(card);
     card.style.transform = "rotateY(180deg)";
+  };
+
+  handleClose = e => {
+    console.log("handle close clicked");
+    let card = document.querySelector(".card");
+    console.log(card);
+    card.style.transform = "rotateY(360deg)";
   };
   render() {
     return (
@@ -31,7 +39,17 @@ class Card extends React.Component {
             </p>
           </div>
         </div>
-        <div className="card-back">This is the back of the card.</div>
+        <div className="card-back">
+          <div className="card-back-top">
+            This is the back of the card.
+            <img
+              className="card-img-close"
+              src={ImgClose}
+              alt="Close"
+              onClick={this.handleClose}
+            />
+          </div>
+        </div>
       </div>
     );
   }
