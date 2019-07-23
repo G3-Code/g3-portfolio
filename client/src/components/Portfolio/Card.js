@@ -1,24 +1,31 @@
 import React from "react";
 import ImgMenu from "../../assets/menu-more48.png";
 import ImgClose from "../../assets/close48.png";
+import ImgLink from "../../assets/card-link52.png";
+import ImgGithub from "../../assets/card-github64.png";
 
 class Card extends React.Component {
   handleClick = e => {
     console.log("handle clicked");
-    let card = document.querySelector(".card");
+    let card = document.querySelector(
+      `.card[data-card="${this.props.card.id}"]`
+    );
     console.log(card);
+    // let card = cards[this.props.card.id];
     card.style.transform = "rotateY(180deg)";
   };
 
   handleClose = e => {
     console.log("handle close clicked");
-    let card = document.querySelector(".card");
+    let card = document.querySelector(
+      `.card[data-card="${this.props.card.id}"]`
+    );
     console.log(card);
     card.style.transform = "rotateY(360deg)";
   };
   render() {
     return (
-      <div className="card">
+      <div className="card" data-card={this.props.card.id}>
         <div className="card-front">
           <img src={this.props.card.img} alt="portfolio" />
           <div className="card-separator" />
@@ -46,9 +53,13 @@ class Card extends React.Component {
             />
           </div>
           <div className="card-back-center">
-            {this.props.card.accomplishment.map((item, map) => (
-              <li key="index">{item}</li>
+            {this.props.card.accomplishment.map(item => (
+              <li key={item.id}>{item.desc}</li>
             ))}
+          </div>
+          <div className="card-back-bottom">
+            <img className="card-img-el" src={ImgLink} alt="View Online" />
+            <img className="card-img-gh" src={ImgGithub} alt="View in Github" />
           </div>
         </div>
       </div>

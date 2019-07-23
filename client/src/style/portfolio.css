@@ -67,7 +67,7 @@
 
   color: #eeeeee;
   transform-style: preserve-3d;
-  transition: all 1s ease-in-out;
+  transition: all 0.75s ease-in-out;
 }
 
 /* .card:hover {
@@ -110,8 +110,23 @@
   cursor: pointer;
 }
 
+.card-back-bottom {
+  margin-top: 3%;
+  margin-left: 5%;
+}
+.card-back-bottom .card-img-el {
+  width: 19.5%;
+  height: 19.5%;
+  margin-right: 3%;
+}
+
+.card-back-bottom .card-img-gh {
+  width: 20%;
+  height: 20%;
+  margin-right: 3%;
+}
 .card-back-center {
-  margin: 5%;
+  margin: 5% 5% 0% 5%;
   padding: 1%;
   line-height: 3rem;
   color: #71a0a5;
