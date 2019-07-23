@@ -41,7 +41,7 @@ class Card extends React.Component {
         </div>
         <div className="card-back">
           <div className="card-back-top">
-            This is the back of the card.
+            <div className="card-back-title">Accomplishments</div>
             <img
               className="card-img-close"
               src={ImgClose}
