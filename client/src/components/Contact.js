@@ -30,7 +30,7 @@ function Contact() {
               className="contact-input-msg"
             />
           </div>
-          <div data-netlify-recaptcha="true" />
+          <div className="recaptcha" data-netlify-recaptcha="true" />
           <div>
             <input
               type="submit"
