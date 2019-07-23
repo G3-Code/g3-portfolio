@@ -71,9 +71,9 @@
   transition: all 1s ease-in-out;
 }
 
-.card:hover {
+/* .card:hover {
   transform: rotateY(180deg);
-}
+} */
 
 .card-front {
   width: 100%;
@@ -113,6 +113,7 @@
 .card-title .card-img-more {
   width: 5%;
   height: 5%;
+  cursor: pointer;
 }
 
 .card-txt p {
