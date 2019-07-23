@@ -50,13 +50,18 @@
   width: 100%;
   height: auto;
   border: 0px solid green;
-  padding-bottom: 2%;
+  padding-bottom: 1%;
+}
+
+.card-container {
+  border: 1px solid magenta;
+  padding: 1%;
 }
 
 .card {
-  width: 40rem;
+  width: 35rem;
   height: 45rem;
-  margin: 1% 1%;
+  margin: 2.5% 2.5% 2.5% 2.5%;
   font-size: 1.5rem;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
@@ -74,7 +79,7 @@
 }
 
 .card-title {
-  color: #71a0a5;
+  color: #eeeeee;
   font-size: 1.5rem;
   display: flex;
   justify-content: space-between;
@@ -92,6 +97,7 @@
   letter-spacing: 3px;
   line-height: 15px;
   text-align: justify;
+  color: #71a0a5;
 }
 .card-txt {
   border: 0px solid white;
