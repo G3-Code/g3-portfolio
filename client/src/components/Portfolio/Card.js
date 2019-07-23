@@ -24,7 +24,7 @@ class Card extends React.Component {
           <div className="card-separator" />
           <div className="card-txt">
             <div className="card-title">
-              <div>Project Name: </div>
+              <div>{this.props.card.projectName} </div>
               <img
                 className="card-img-more"
                 src={ImgMenu}
@@ -32,11 +32,7 @@ class Card extends React.Component {
                 onClick={this.handleClick}
               />
             </div>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Temporibus cumque tempore perspiciatis praesentium accusantium?
-              Eum animi.
-            </p>
+            <p>{this.props.card.description}</p>
           </div>
         </div>
         <div className="card-back">
