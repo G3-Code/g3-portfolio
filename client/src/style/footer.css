@@ -8,6 +8,7 @@
   padding: 0.5rem;
   position: absolute;
   bottom: 0px;
+  border: 1px solid black;
 }
 
 .footer-center {
@@ -54,5 +55,6 @@
   }
   .footer-center {
     justify-content: center;
+    margin: 0%;
   }
 }
