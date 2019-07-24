@@ -93,3 +93,10 @@
   width: 40%;
   height: 4rem;
 }
+
+.error {
+  color: #eeeeee;
+  letter-spacing: 1px;
+  text-transform: initial;
+  margin-left: 1%;
+}
