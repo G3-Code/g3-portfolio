@@ -47,10 +47,6 @@ class Contact extends React.Component {
       message = "";
       isMsgError = false;
     }
-    console.log("------------------");
-    console.log(nameError);
-    console.log(emailError);
-    console.log(messageError);
     this.setState({
       isNameError: isNameError,
       isEmailError: isEmailError,
@@ -59,8 +55,10 @@ class Contact extends React.Component {
       emailError: emailError,
       msgError: messageError
     });
-    // let form = document.getElementById("form-contact");
-    // form.submit();
+    if (!isNameError && !isEmailError && !isMsgError) {
+      let form = document.getElementById("form-contact");
+      form.submit();
+    }
   };
 
   validateEmail = email => {
