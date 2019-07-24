@@ -1,36 +1,54 @@
 .contact-area {
   width: 100vw;
   height: 100vh;
-  position: relative;
+  position: absolute;
   padding-top: 10vh;
   background-color: #eeeeee;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .contact-container {
-  margin-top: 3%;
-  margin-left: 30%;
-  width: 40%;
-  height: 50rem;
+  width: 500px;
+  height: 55rem;
   border-radius: 5px;
   background-color: black;
   color: #71a0a5;
   font-size: 1.4rem;
-  padding: 5%;
+  padding: 3% 5%;
   text-transform: uppercase;
   letter-spacing: 3px;
   line-height: 2rem;
   font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+}
+
+.contact-row {
+  width: 100%;
+}
+
+.contact-content-container {
+  width: 80%;
+  height: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
 }
 
 .contact-input {
-  width: 97%;
+  width: 100%;
   height: 3rem;
   letter-spacing: 1px;
   text-transform: initial;
   font-size: 1.5rem;
   vertical-align: middle;
   color: black;
-  margin-bottom: 5%;
 }
 
 .contact-input:focus {
@@ -38,13 +56,12 @@
 }
 
 .contact-input-msg {
-  width: 97%;
+  width: 100%;
   height: 10rem;
   letter-spacing: 1px;
   text-transform: initial;
   font-size: 1.5rem;
   color: black;
-  margin-bottom: 5%;
 }
 
 .contact-input-msg:focus {
@@ -52,14 +69,14 @@
 }
 
 .contact-button {
-  width: 60%;
-  height: 5rem;
+  width: 200px;
+  height: 50px;
   text-transform: uppercase;
   background: #eeeeee;
   color: #71a0a5;
   font-size: 1.5rem;
   letter-spacing: 0.4rem;
-  margin: 7% 20%;
+  margin-left: 40%;
 }
 
 .contact-button:hover {
@@ -75,4 +92,11 @@
   background-color: #eeeeee;
   width: 40%;
   height: 4rem;
+}
+
+.error {
+  color: #eeeeee;
+  letter-spacing: 1px;
+  text-transform: initial;
+  margin-left: 1%;
 }
