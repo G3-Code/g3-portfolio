@@ -4,7 +4,7 @@ import "../style/contact.css";
 function Contact() {
   return (
     <section className="contact-area">
-      <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+      <form name="contact">
         <div className="contact-container">
           <div className="contact-label">Full Name: </div>
           <div>
@@ -31,7 +31,6 @@ function Contact() {
             />
           </div>
           <div>
-            <input type="hidden" name="form-name" value="contact" />
             <input
               type="submit"
               className="contact-button"
