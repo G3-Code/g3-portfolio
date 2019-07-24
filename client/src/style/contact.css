@@ -13,22 +13,23 @@
   height: 50rem;
   border-radius: 5px;
   background-color: black;
-  color: #eeeeee;
-  font-size: 1.25rem;
+  color: #71a0a5;
+  font-size: 1.4rem;
   padding: 5%;
   text-transform: uppercase;
   letter-spacing: 3px;
   line-height: 2rem;
+  font-weight: 500;
 }
 
 .contact-input {
   width: 97%;
   height: 3rem;
   letter-spacing: 1px;
-  text-transform: uppercase;
+  text-transform: initial;
   font-size: 1.5rem;
   vertical-align: middle;
-  color: #71a0a5;
+  color: black;
   margin-bottom: 5%;
 }
 
@@ -42,7 +43,7 @@
   letter-spacing: 1px;
   text-transform: initial;
   font-size: 1.5rem;
-  color: #71a0a5;
+  color: black;
   margin-bottom: 5%;
 }
 
