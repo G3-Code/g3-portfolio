@@ -12,6 +12,7 @@ function Contact() {
               type="text"
               placeholder="Full name"
               className="contact-input"
+              name="name"
             />
           </div>
           <div className="contact-label">Email address: </div>
@@ -20,6 +21,7 @@ function Contact() {
               type="text"
               placeholder="Email address"
               className="contact-input"
+              name="email"
             />
           </div>
           <div className="contact-label">Message: </div>
