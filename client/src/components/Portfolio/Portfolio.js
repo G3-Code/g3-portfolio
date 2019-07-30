@@ -28,7 +28,8 @@ class Portfolio extends React.Component {
   selectTabHandler = tab => {
     this.setState(prevState => {
       const filteredCards = prevState.cards.filter(card => {
-        return card.tab === tab;
+        //return card.tab === tab;
+        return card.tab.includes(tab);
       });
       if (!(filteredCards.length === 0)) {
         return {
