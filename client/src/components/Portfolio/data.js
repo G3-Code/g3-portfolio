@@ -6,7 +6,7 @@ export const cardData = [
     projectName: "Lambda Labs - Product Q",
     description:
       "Fully responsive landing page for web app built with HTML5/CSS3 + javascript.",
-    tab: "javascript",
+    tab: ["javascript"],
     img: "./assets/productq.png",
     accomplishment: [
       { id: "a1", desc: "HTML5, CSS3, JS" },
@@ -24,7 +24,7 @@ export const cardData = [
     projectName: "Project 2",
     description:
       "Type Coercion: Why Does NaN !== NaN? and Other Strange Occurences",
-    tab: "boostrap",
+    tab: ["boostrap"],
     img: "./assets/test.jpg",
     accomplishment: [
       { id: "a21", desc: "Accomplishment1" },
@@ -39,7 +39,7 @@ export const cardData = [
     id: "3",
     projectName: "Project 3",
     description: "AI: What Are the Ethical Rammifications of the Future?",
-    tab: "technology",
+    tab: ["technology"],
     img: "./assets/test.jpg",
     accomplishment: [
       { id: "a31", desc: "Accomplishment1" },
@@ -54,7 +54,7 @@ export const cardData = [
     id: "4",
     projectName: "Project 4",
     description: "History of Javascript Libraries: from jQuery to React",
-    tab: "React.js",
+    tab: ["React.js"],
     img: "./assets/test.jpg",
     accomplishment: [
       { id: "a41", desc: "Accomplishment1" },
@@ -69,7 +69,7 @@ export const cardData = [
     id: "5",
     projectName: "Project 5",
     description: "Node.js in 2018: Which Framework? Express, Sails, Hapi?",
-    tab: "node",
+    tab: ["node"],
     img: "./assets/test.jpg",
     accomplishment: [
       { id: "a51", desc: "Accomplishment1" },
@@ -84,7 +84,7 @@ export const cardData = [
     id: "6",
     projectName: "Project 6",
     description: "MongoDB: NoSQL vs. SQL, the Debate Continues...",
-    tab: "node",
+    tab: ["node"],
     img: "./assets/test.jpg",
     accomplishment: [
       { id: "a61", desc: "Accomplishment1" },
@@ -100,7 +100,7 @@ export const cardData = [
     projectName: "Project 7",
     description:
       "When to Rest, When to Spread: Why There Are Two Meanings Behind '...'",
-    tab: "javascript",
+    tab: ["javascript"],
     img: "./assets/test.jpg",
     accomplishment: [
       { id: "a71", desc: "Accomplishment1" },
@@ -116,7 +116,7 @@ export const cardData = [
     projectName: "Project 8",
     description:
       "The Hottest New Bootstrap 4 Components Every Developer Needs to Know About",
-    tab: "bootstrap",
+    tab: ["bootstrap"],
     img: "./assets/test.jpg",
     accomplishment: [
       { id: "a81", desc: "Accomplishment1" },
