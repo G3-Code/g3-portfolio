@@ -1,25 +1,20 @@
-export const tabData = [
-  "all",
-  "javascript",
-  "technology",
-  "node",
-  "React.js",
-  "bootstrap"
-];
+export const tabData = ["all", "javascript", "node", "React.js"];
 
 export const cardData = [
   {
     id: "1",
-    projectName: "Project 1",
+    projectName: "Lambda Labs - Product Q",
     description:
-      "ES8: The Next Step in the Evolution of Javascript and What it Means For Your Projects",
+      "Fully responsive landing page for web app built with HTML5/CSS3 + javascript.",
     tab: "javascript",
-    img: "./assets/test.jpg",
+    img: "./assets/productq.png",
     accomplishment: [
-      { id: "a1", desc: "Accomplishment1" },
-      { id: "a2", desc: "Accomplishment2" },
-      { id: "a3", desc: "Accomplishment3" },
-      { id: "a4", desc: "Accomplishment4" }
+      { id: "a1", desc: "HTML5, CSS3, JS" },
+      { id: "a2", desc: "Reusable JS components" },
+      {
+        id: "a3",
+        desc: "Fully responsive - breakpoints for desktop, tablet & mobile"
+      }
     ],
     github: "www.github.com",
     online: "www.google.com"

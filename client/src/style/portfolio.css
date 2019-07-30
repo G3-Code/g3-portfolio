@@ -48,15 +48,13 @@
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
-  height: auto;
-
   padding-bottom: 1%;
 }
 
 .card {
   position: relative;
   width: 35rem;
-  height: 40rem;
+  height: 30rem;
   margin: 2.5% 2.5% 2.5% 2.5%;
   font-size: 1.5rem;
   text-transform: uppercase;
@@ -115,14 +113,14 @@
   margin-left: 5%;
 }
 .card-back-bottom .card-img-el {
-  width: 19.5%;
-  height: 19.5%;
+  width: 15%;
+  height: 15%;
   margin-right: 3%;
 }
 
 .card-back-bottom .card-img-gh {
-  width: 20%;
-  height: 20%;
+  width: 15%;
+  height: 15%;
   margin-right: 3%;
 }
 .card-back-center {
@@ -132,7 +130,7 @@
   color: #71a0a5;
   text-transform: initial;
   border-bottom: 2px solid #71a0a5;
-  height: 60%;
+  height: 54%;
 }
 .card-back-title {
   margin-left: 5%;
