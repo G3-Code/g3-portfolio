@@ -1,4 +1,4 @@
-export const tabData = ["all", "javascript", "node", "React.js"];
+export const tabData = ["all", "javascript", "node", "React.js", "HTML5/CSS3"];
 
 export const cardData = [
   {
@@ -6,7 +6,7 @@ export const cardData = [
     projectName: "Lambda Labs - Product Q",
     description:
       "Fully responsive landing page for web app built with HTML5/CSS3 + javascript.",
-    tab: ["javascript"],
+    tab: ["javascript", "HTML5/CSS3"],
     img: "./assets/productq.png",
     accomplishment: [
       { id: "a1", desc: "HTML5, CSS3, JS" },
@@ -16,8 +16,8 @@ export const cardData = [
         desc: "Fully responsive - breakpoints for desktop, tablet & mobile"
       }
     ],
-    github: "www.github.com",
-    online: "www.google.com"
+    github: "https://github.com/build-415-productqueue/landingpage",
+    online: "https://lambdaprodq.netlify.com/"
   },
   {
     id: "2",

@@ -116,12 +116,14 @@
   width: 15%;
   height: 15%;
   margin-right: 3%;
+  cursor: pointer;
 }
 
 .card-back-bottom .card-img-gh {
   width: 15%;
   height: 15%;
   margin-right: 3%;
+  cursor: pointer;
 }
 .card-back-center {
   margin: 5% 5% 0% 5%;

@@ -58,8 +58,16 @@ class Card extends React.Component {
             ))}
           </div>
           <div className="card-back-bottom">
-            <img className="card-img-el" src={ImgLink} alt="View Online" />
-            <img className="card-img-gh" src={ImgGithub} alt="View in Github" />
+            <a href={this.props.card.online} target="blank">
+              <img className="card-img-el" src={ImgLink} alt="View Online" />
+            </a>
+            <a href={this.props.card.github} target="blank">
+              <img
+                className="card-img-gh"
+                src={ImgGithub}
+                alt="View in Github"
+              />
+            </a>
           </div>
         </div>
       </div>
