@@ -44,7 +44,7 @@ class Card extends React.Component {
         </div>
         <div className="card-back">
           <div className="card-back-top">
-            <div className="card-back-title">Accomplishments</div>
+            <div className="card-back-title">Tech stack</div>
             <img
               className="card-img-close"
               src={ImgClose}
