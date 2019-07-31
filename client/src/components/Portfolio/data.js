@@ -38,7 +38,22 @@ export const cardData = [
       { id: "a23", desc: "Accomplishment3" },
       { id: "a24", desc: "Accomplishment4" }
     ],
-    github: "www.github.com",
-    online: "www.google.com"
+    github: "https://github.com/G3-Code/justhelp-front-end",
+    online: "https://random-acts-generator.netlify.com/login"
+  },
+  {
+    id: "3",
+    projectName: "Sleep tracker",
+    description: "A web app that helps you track your sleep schedule.",
+    tab: ["javascript", "React.js", "node", "SQL", "HTML5/CSS3"],
+    img: "./assets/sleeptracker.png",
+    accomplishment: [
+      { id: "a21", desc: "Accomplishment1" },
+      { id: "a22", desc: "Accomplishment2" },
+      { id: "a23", desc: "Accomplishment3" },
+      { id: "a24", desc: "Accomplishment4" }
+    ],
+    github: "https://github.com/G3-Code/justhelp-front-end",
+    online: "https://random-acts-generator.netlify.com/login"
   }
 ];
