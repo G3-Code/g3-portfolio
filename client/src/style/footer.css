@@ -6,7 +6,7 @@
   background-color: black;
   color: #eeeeee;
   /* padding: 0.5rem; */
-  position: absolute;
+  position: fixed;
   bottom: 0px;
   border: 1px solid black;
 }
